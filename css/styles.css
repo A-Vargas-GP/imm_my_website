@@ -1,0 +1,18 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(23,102,153);
+    font-size: 40px;
+}
+#intro {
+    font-family: 'Gill Sans';
+    color: rgb(80, 21, 73);
+    padding: 15px;
+    font-size: 18px;
+}
+body{
+    background-color: rgb(204, 230, 232);
+}
+p {
+    font-size: 20px;
+    color: rgb(205,0,0);
+}
