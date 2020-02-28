@@ -1,0 +1,16 @@
+body {
+    background-color:rgba(216,241,222,0.3);
+}
+h1 {
+    background-color: rgba(61,188,171,0.6);
+    color: rgb(61,88,171);
+}
+
+ul {
+    background-color: rgba(61,188,171,0.8);
+    color:#FFFFFF;
+}
+p {
+    background-color: darkolivegreen;
+    color: rgba(255,220,218,0.7);
+}
