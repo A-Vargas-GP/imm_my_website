@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head> <meta charset = "utf-8">
+        <title> Submission Form </title>
+    </head>
+    
+    <body>
+        
+        <h1> Submission Form </h1>
+        <form action = "https://formspree.io/mgeklevp" method = "POST">
+    
+        <p> Enter a username here:
+            <input type = "text" name = "username" size = "25" maxlength = "30" />
+        </p>
+    
+        <p> Enter a password here:
+            <input type = "password" name = "password" size = "25" maxlength = "30" />
+        </p>
+    
+        <p> Please respond to the following questions: </p>
+        
+        <p> What consoles have you played on?
+            
+            <input type = "checkbox" name = "console" value = "PS4" /> PS4
+            <input type = "checkbox" name = "console" value = "Xbox One" /> Xbox One
+            <input type = "checkbox" name = "console" value = "Nintendo Switch" /> Nintendo Switch
+            <input type = "checkbox" name = "console" value = "Other"/> Other
+            <input type = "checkbox" name = "console" value = "none" /> None
+        </p>
+        
+        <p> What is your age range?
+            <input type = "radio" name = "age range" value = "<18" /> Under 18
+            <input type = "radio" name = "age range" value = "18-24" /> 18-24
+            <input type = "radio" name = "age range" value = "25-34" /> 25-34
+            <input type = "radio" name = "age range" value = "35-44" /> 35-44
+            <input type = "radio" name = "age range" value = "45-54" /> 45-54
+            <input type = "radio" name = "age range" value = "55-64" /> 55-64
+            <input type = "radio" name = "age range" value = "65+" /> 65+
+            <input type = "radio" name = "age range" value = "null" checked = "checked" /> Rather not say
+        </p>
+        
+        <p> What is your preferred mobile operating system? </p>
+        <select name = "device">
+            <option value = "iOS" selected = "selected"> iOS </option>
+            <option value = "Android" > Android </option>
+            <option value = "Blackberry"> Blackberry </option>
+            <option value = "Windows"> Windows </option>
+        </select>
+        <br />
+        
+        <p> Do you live in New Jersey?
+            <input type = "radio" name = "residence" value = "Yes" /> Yes
+            <input type = "radio" name = "residence" value = "No" /> No
+        
+        </p>
+        
+        <input type = "submit" value = "Submit" />
+        
+        </form>
+    </body>
+    
+</html>
