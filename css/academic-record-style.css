@@ -1,0 +1,55 @@
+h1 {
+    font-family: 'Acme', sans-serif;
+    font-size: 40px;
+    border: 5px dotted rgb(110, 110, 223);
+    background-color: rgba(94, 204, 189, 0.3);
+}
+
+h2 {
+    font-family: 'Bellota', cursive;
+    font-size: 30px;
+    border: 5px dotted rgb(123, 223, 145);
+    background-color: rgba(94, 204, 189, 0.3);
+
+}
+
+h3 {
+    font-family: 'Bellota', cursive;
+    font-size: 25px;
+    border: 5px dotted rgb(176, 134, 216);
+    background-color: rgba(94, 204, 189, 0.3);
+
+}
+
+td {
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+}
+th {
+    font-family: 'Acme', sans-serif;
+    font-size: 22px;
+
+}
+
+ul {
+    font-family: 'Acme', sans-serif;
+    font-size: 22px;
+
+}
+
+body {
+    background-image: url('../images/background_website.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 5000px;
+}
+
+a:link {
+    font-family: 'Acme', sans-serif;
+    color: rgb(99,164,89);
+}
+
+a:hover {
+    font-family: 'Acme', sans-serif;
+    color: rgb(170,104,152);
+}

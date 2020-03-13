@@ -1,0 +1,35 @@
+body {
+    background-color:rgba(216,241,222,0.3);
+}
+
+h1 {
+    background-color: rgba(61,188,171,0.6);
+    color: rgb(61,88,171);
+    font-size: 50px;
+    text-align: center;
+}
+
+ul {
+    background-color: rgba(61,188,171,0.8);
+    color:#FFFFFF;
+    font-size: 19px;
+}
+p {
+    background-color: darkolivegreen;
+    color: rgba(255,220,218,0.7);
+    font-size: 19px;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:link {
+    color: rgb(99,164,89);
+}
+a:hover {
+    color: rgb(170,104,152);
+}

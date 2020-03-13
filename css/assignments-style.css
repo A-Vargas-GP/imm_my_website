@@ -1,0 +1,43 @@
+ul {
+    line-height: 1.5;
+}
+
+.folder {
+    list-style-image: url(http://upload.wikimedia.org/wikipedia/commons/1/19/Icons-mini-icon_attachment.gif);
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    color: rgb(30,162,152);
+
+}
+
+.file {
+    list-style-image: url('../images/assignments_symbol.png');
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    color: rgb(30,162,152);
+}
+
+h1 {
+    font-family: 'Bellota', cursive;
+    text-align: center;
+    font-size: 50px;
+    border: 5px dashed rgb(201, 125, 224);
+    color: rgb(30,104,152);
+}
+
+body {
+    background-image: url('../images/background_website.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 5000px;
+}
+
+a:link {
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    color: rgb(99,164,89);
+}
+a:hover {
+    font-family: 'Acme', sans-serif;
+    color: rgb(170,104,152);
+}

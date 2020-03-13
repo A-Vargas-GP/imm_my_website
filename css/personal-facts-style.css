@@ -1,0 +1,43 @@
+h1 {
+    font-family: 'Bellota', cursive;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(122, 14, 14);
+    text-decoration: underline;
+    background-color: rgba(167, 236, 227, 0.3);
+    border-style: dashed;
+
+}
+
+h2 {
+    font-family: 'Bellota', cursive;
+    font-size: 35px;
+    background-color: rgba(167, 236, 227, 0.7);
+    color: rgb(43, 72, 134)
+
+}
+
+ul {
+    background-color: rgba(26, 124, 111, 0.7);
+    font-family: 'Acme', sans-serif;
+    color: rgb(209, 236, 198);
+    font-size: 25px;
+}
+
+body {
+    background-image: url('../images/background_website.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 4500px;
+}
+
+a:link {
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    color: rgb(99,164,89);
+}
+
+a:hover {
+    font-family: 'Acme', sans-serif;
+    color: rgb(170,104,152);
+}
