@@ -1,0 +1,90 @@
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(211, 162, 72);
+}
+
+p {
+    font-family: 'Baloo 2', cursive;
+    font-size: 30px;
+    color: white;
+    font-weight: lighter;
+}
+
+img {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+header {
+    width: 100%;
+    left: 5px;
+    background-color: rgba(25, 122, 127, 0.8);
+}
+
+#spirit-fingers {
+    float: left;
+    width: 30%;
+    background-color: rgba(117, 214, 234, 0.6);
+}
+
+#crumbs {
+    float: right;
+    width: 70%;
+    background-color: rgba(85, 176, 191, 0.6);
+}
+
+#beck {
+    float:left;
+    width: 25%;
+    background-color: rgba(117, 214, 234, 0.6);
+}
+
+#saint-motel{
+    float:right;
+    width: 25%;
+    background-color: rgba(117, 214, 234, 0.6);
+}
+
+#ftp {
+    float:left;
+    width: 50%;
+    background-color: rgba(85, 176, 191, 0.6);
+}
+
+#spider {
+    float:left;
+    width: 50%;
+    background-color: rgba(25, 122, 127, 0.8);
+}
+
+#spiderverse {
+    float: right;
+    width: 50%;
+    background-color: rgba(117, 214, 234, 0.6);
+}
+
+#kick-ass {
+    float:left;
+    width: 50%;
+    background-color: rgba(117, 214, 234, 0.6);
+}
+
+#logan {
+    float:right;
+    width: 50%;
+    background-color: rgba(25, 122, 127, 0.8);
+}
+
+.clear {
+    clear: left;
+}
+
+body {
+    background-image: url('../images/background_website.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 5000px;
+}
