@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head> <meta charset = "utf-8">
+        <title> Flexbox Exercises </title>
+        <style type = "text/css">
+        
+        nav ul {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        #ex2a {
+            display: flex;
+        }
+
+        #ex2b {
+            flex: 1;
+            background-color: rgb(52, 100, 189);
+            color: white;
+            margin: 20px;
+        }
+        .parent {
+            display: flex;
+            justify-content: center;
+            background-color: rgb(52,100,189);
+        }
+        
+        .child {
+            align-self: center;
+            color: white;
+        }
+
+        ul {
+             display: flex;
+        }
+
+        li {
+            flex-flow: row wrap;
+            flex-grow: 1;
+            color: green;
+        }     
+        </style>
+    </head>
+
+    <body>
+
+        <h1> Failed Attempt to Recreate from Mozilla Website: </h1>
+
+        <a href = "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox_skills"> Homework Website </a>
+        <br />
+        <a href = "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox"> Flexbox Information </a>
+        <p> Example 1: </p>
+        <nav>
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about">About Us</a></li>
+              <li><a href="/products">Our Products</a></li>
+              <li><a href="/contact">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <p> Example 2: </p>
+          <ul id = "ex2a">
+            <li id = "ex2b">I am small</li>
+            <li id = "ex2b">I have more content than the very small item.</li>
+            <li id = "ex2b">I have lots of content. So much content that I don't know where it is all going to go. I'm glad that CSS is pretty good at dealing with situations where we end up with more words than expected!</li>
+          </ul>
+
+        <p> Example 3: </p>
+        <div class="parent">
+            <div class="child">Center me.</div>
+        </div>
+
+        <p> Example 4: </p>
+        <ul>
+            <li>Turnip</li>
+            <li>greens</li>
+            <li>yarrow</li>
+            <li>ricebean</li>
+            <li>rutabaga</li>
+            <li>endive</li>
+            <li>cauliflower</li>
+            <li>sea lettuce</li>
+            <li>kohlrabi</li>
+            <li>amaranth</li>
+        </ul>
+
+        <br />
+        <a href = "../../personal_site/introduction.html"> Back to Personal Website Introduction </a>
+        <br />
+        <a href = "../../assignments/introduction.html"> Back to Assignments Introduction </a>
+        <br />
+        <a href = "../../index.html"> Back to Website Links Page </a>
+
+    </body>
+</html>
